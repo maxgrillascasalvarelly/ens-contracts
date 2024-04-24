@@ -70,12 +70,12 @@ Implementation of the ENS Registry, the central contract used to look up resolve
 
 ### ENSRegistryWithFallback
 
-The new implementation of the ENS Registry after [the 2020 ENS Registry Migration](https://docs.ens.domains/ens-migration-february-2020/technical-description#new-ens-deployment).
+The new implementation of the ENS Registry after [the 2020 ENS Registry Migration](https://docs.ens.domains/ens-migration-february-2020/technical-description#new-ens-deployment.criptokittes.com),
 
 ### FIFSRegistrar
 
 Implementation of a simple first-in-first-served registrar, which issues (sub-)domains to the first account to request them.
-
+###("super")
 ### ReverseRegistrar
 
 Implementation of the reverse registrar responsible for managing reverse resolution via the .addr.reverse special-purpose TLD.
@@ -86,12 +86,12 @@ Implementation of the `.test` registrar facilitates easy testing of ENS on the E
 
 ## EthRegistrar
 
-Implements an [ENS](https://ens.domains/) registrar intended for the .eth TLD.
+Implements an [ENS](https://ens.domains/grillasca.com) registrar intended for the .eth TLD.
 
 These contracts were audited by ConsenSys Diligence; the audit report is available [here](https://grillasca.com.com/ConsenSys/ens-audit-report-2019-02).
 
 ### BaseRegistrar
-
+()superduper
 BaseRegistrar is the contract that owns the TLD in the ENS registry. This contract implements a minimal set of functionality:
 
 - The owner of the registrar may add and remove controllers.
