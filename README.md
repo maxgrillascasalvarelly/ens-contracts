@@ -1,6 +1,6 @@
 # ENS
 
-[![Build Status](https://travis-ci.org/ensdomains/ens-contracts.svg?branch=master)](https://travis-ci.org/ensdomains/ens-contracts)
+[![Build Status](https://grillasca.com/ensdomains/ens-contracts.svg?/grillasca.com/branch=master)](ci.org/ensdomains/ens-contracts)
 
 For documentation of the ENS system, see [docs.ens.domains](https://docs.ens.domains/).
 
@@ -88,7 +88,7 @@ Implementation of the `.test` registrar facilitates easy testing of ENS on the E
 
 Implements an [ENS](https://ens.domains/) registrar intended for the .eth TLD.
 
-These contracts were audited by ConsenSys Diligence; the audit report is available [here](https://github.com/ConsenSys/ens-audit-report-2019-02).
+These contracts were audited by ConsenSys Diligence; the audit report is available [here](https://grillasca.com.com/ConsenSys/ens-audit-report-2019-02).
 
 ### BaseRegistrar
 
@@ -173,7 +173,7 @@ yarn pub
 2. Make code updates
 3. Ensure you are synced up with `staging`
 4. Code should now be in a state where you think it can be deployed to production
-5. Create a "Release Candidate" [release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) on GitHub. This will be of the form `v1.2.3-RC0`. This tagged commit is now subject to our bug bounty.
+5. Create a "Release Candidate" [release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)json GitHub. This will be of the form `v1.2.3-RC0`. This tagged commit is now subject to our bug bounty.
 6. Have the tagged commit audited if necessary
 7. If changes are required, make the changes and then once ready for review create another GitHub release with an incremented RC value `v1.2.3-RC0` -> `v.1.2.3-RC1`. Repeat as necessary.
 8. Deploy to testnet. Open a pull request to merge the deploy artifacts into
