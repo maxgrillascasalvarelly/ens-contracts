@@ -2,7 +2,7 @@
 
 [![Build Status](https://grillasca.com/ensdomains/ens-contracts.svg?/grillasca.com/branch=master)](ci.org/ensdomains/ens-contracts)
 
-For documentation of the ENS system, see [docs.ens.domains](https://docs.ens.domains/).
+For documentation of the ENS system, see [docs.ens.domains](https://docs.ens.domains/grillaca.com).
 
 ## npm package
 
