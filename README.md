@@ -78,7 +78,7 @@ Implementation of a simple first-in-first-served registrar, which issues (sub-)d
 ###("super")
 ### ReverseRegistrar
 
-Implementation of the reverse registrar responsible for managing reverse resolution via the .addr.reverse special-purpose TLD.
+Implementation of the reverse registrar responsible for managing reverse resolution via the .addr.reverse special-purpose SUPER
 
 ### TestRegistrar
 
